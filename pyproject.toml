@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "packt-statisticsandcalculuswithpython"
+version = "0.1.0"
+description = "Statistics and Calculus with Python"
+authors = ["Arun Kr. Khattri <arunkhattri@outlook.com>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+pandas = "^1.4.1"
+numpy = "^1.22.3"
+scipy = "^1.8.0"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+scikit-learn = "^1.0.2"
+statsmodels = "^0.13.2"
+ipython = "^8.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+pyflakes = "^2.4.0"
+pytest = "^7.1.1"
+pylint = "^2.13.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
